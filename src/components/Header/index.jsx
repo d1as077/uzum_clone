@@ -15,7 +15,6 @@ import {MdOutlineShoppingBag} from "react-icons/md"
 const Header = () => {
     return (
         <header>
-            {/* top */}
             <nav className="bg-[#f2f4f7] py-[4px] text-[14px]">
                 <nav className="container2 flex justify-between items-center">
                     <nav className="flex justify-start items-center gap-[20px]">
@@ -47,7 +46,6 @@ const Header = () => {
                 </nav>
             </nav>
 
-            {/* middle */}
             <nav className="py-[10px]">
                 <nav className="container2 flex justify-between items-center">
                     <img src={logo} alt="" />
@@ -88,7 +86,6 @@ const Header = () => {
                 </nav>
             </nav>
 
-            {/* bottom */}
             <nav className="py-[10px]">
                 <nav className="container2">
                     <ul className="flex justify-between items-center">

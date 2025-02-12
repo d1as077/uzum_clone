@@ -1,6 +1,5 @@
 import React, {useState} from "react"
 
-import Center from "../Center"
 import Header from "../Header"
 import Sidebar from "../Sidebar"
 
