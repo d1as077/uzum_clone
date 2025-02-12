@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.container2 {
+    max-width: 94%;
+    margin: 0 auto;
+}
+
+#price-range::-webkit-slider-thumb {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: #7000ff 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#price-range::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+#price-range::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+}
